@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#mainContent{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 20%;
+    background: #000;
+    height: 190vh;
+}
+.contentcontainer{
+    width: 80%;
+    background: #f4f6f9;
+}
+h3.logo{
+    background-color: blue;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.user img{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #0000ff;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.user span{
+    top: 20%;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+ul.menulist{
+    margin-top: 10px;
+}
+ul.menulist li{
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+ul.menulist li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+}
+ul.menulist li a img{
+    font-size: 25px;
+    background-color: #0000ff;
+}
+ul.menulist li.active{
+    background: #0000ff;
+}
+ul.menulist li:hover{
+    background: #0000ff;
+    transition: 0.5s all;
+}
+.topnav{
+    background: #000;
+    padding: 10px;
+}
+.topnav a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+.topnav a img{
+    background-color: #fff;
+}
+#logoutBtn{
+    float: right;
+}
+.content{
+    padding: 20px 20px 10px 10px;
+    background: #0000ff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.maincontent{
+    background: #0000ff;
+    min-height: 950px;
+    height: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+h1.display{
+    text-align: center;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+}
+.col{
+    background: #0000ff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    width: 130px;
+}
+.col2{
+    background: #ff4800;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    width: 140px;
+}
+.col3{
+    background: #060630;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 35px;
+    width: 140px;
+}
+.col4{
+    background: #2b032b;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    width: 140px;
+}
+.col5{
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    width: 150px;
+}
+.col6{
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    width: 150px;
+}
+
+/* transaction*/
+
+.export{
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*profile*/
+
+.profile{
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+
